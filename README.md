@@ -6,13 +6,13 @@ Provides examples of how to interface with a Websocket Server in Javascript and 
 |---|---|
 | Developer |  [www.stier-automation.com](www.stier-automation.com) - [stiersl@stier-automation.com](stiersl@stier-automation.com) |
 
-Project Link: [https://github.com/Stier-Automation-LLC/sa-websocket-example.git](https://github.com/Stier-Automation-LLC/sa-websocker-example.git)
+Project Link: [https://github.com/Stier-Automation-LLC/sa-websocket-example.git](https://github.com/Stier-Automation-LLC/sa-websocket-example.git)
 
 ## Prerequisite
 
 
 
-### Code developed Node.js and uses ws library
+### Code developed Node.js and uses ws library from /server
 
     `npm install ws`
 
