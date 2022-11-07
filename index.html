@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/dcode.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>WebSockets</title>
+  </head>
+  <body>
+    <h1>WebSockets Basics</h1>
+    <ul class="tsummary">
+      <li>Allows two way event-driven communication between web browser and server</li>
+      <li>great for <strong>real-time</strong> applications</li>
+    </ul>
+
+    <script>
+      const ws = new WebSocket("ws://localhost:8082");
+
+      // fire off whenever we connected to the web seocket server
+      ws.addEventListener("open", () => {
+        console.log ("We are connected!");
+        // this sends data to the server
+        ws.send("Hey, hows it going?");
+      });
+      //set up event listenr to listen for message from server
+      // this uses object destructurning to get the data element from the message
+      ws.addEventListener("message", ({ data}) => {
+        console.log(data);
+      });
+    </script>
+  </body>
+</html>
