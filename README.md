@@ -1,10 +1,10 @@
-# sa-websocker-example
+# sa-websocket-example
 Provides examples of how to interface with a Websocket Server in Javascript and with a Node.js Websocker server
 
 ## Contact
 |||
 |---|---|
-| Developer |  [https://www.stier-automation.com](https://www.stier-automation.com) - [stiersl@stier-automation.com](stiersl@stier-automation.com) |
+| Developer |  [www.stier-automation.com](https://www.stier-automation.com) - [stiersl@stier-automation.com](MAILTO:stiersl@stier-automation.com) |
 
 Project Link: [https://github.com/Stier-Automation-LLC/sa-websocket-example.git](https://github.com/Stier-Automation-LLC/sa-websocket-example.git)
 
